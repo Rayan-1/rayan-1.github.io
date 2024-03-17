@@ -1,4 +1,5 @@
 /*Reset*/
+
 *{
     padding: 0;
     margin: 0;
@@ -9,12 +10,12 @@
 /*variaveis*/
 
 :root{
-    --main-color: #54B689;
+    --main-color: #21e317;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
-    --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --bio-bg-color: #072082;
+    --bio-border-color: #000;
+    --about-bg-color: #072082;
 
 }
 
@@ -226,5 +227,7 @@
 
     #skills-box i{
         font-size: 60px;
+
     }
+    
 }
