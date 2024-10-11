@@ -31,11 +31,6 @@
 </div><br/>
 
 
-💻 Desenvolvedor com mais de 10 anos de experiência, apaixonado por compartilhar conhecimento e ajudar pessoas a entrarem no mundo da programação.
+Sou desenvolvedor há mais de 5 anos, com experiência sólida em diversas tecnologias. Nos últimos 2 anos, venho me dedicando à área de DevOps, implementando práticas e ferramentas que otimizam processos de desenvolvimento e operações. Minha paixão por tecnologia e aprendizado contínuo me permite enfrentar desafios complexos com eficácia. 💻
 
-### Últimos videos:
-- [Como ZUSTAND deixa seu projeto profissional](https://youtu.be/nutJS8u4RtQ)<br/>
-- [Criando Aplicativo + IA profissional do zero](https://youtu.be/A2yPW3ZSv_A)<br/>
-- [Nunca foi tão fácil criar Dashboard com Next JS e Shadcn ui 🔥](https://youtu.be/PqRe0Q9b5QI)<br/>
-- [Aprendendo e conhecendo FIGMA - UI Design](https://youtu.be/KRCfX25yFf4)<br/>
 
