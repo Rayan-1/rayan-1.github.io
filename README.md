@@ -1,8 +1,8 @@
-## Olá! Eu sou o Matheus Fraga 🖐️
+## Olá! Eu sou o Rayan Victor 🖐️
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayan-victor-9749b3224/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rayan-1/rayan-1.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://rayan-1.github.io)
 
 
 ## Tecnologias que eu uso no meu dia
