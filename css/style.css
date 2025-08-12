@@ -15,22 +15,29 @@ body {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
+    padding: 1rem;
 }
 
 /* Lado esquerdo */
 #bio-container {
     flex: 1;
     min-width: 280px;
-    background: #111;
+    background: linear-gradient(180deg, #111, #0c0c0c);
     padding: 2rem 1rem;
     text-align: center;
-    border-radius: 0 0 12px 12px;
-    box-shadow: 0 4px 20px rgba(0, 255, 128, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 255, 128, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#bio-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 35px rgba(0, 255, 128, 0.12);
 }
 
 #bio-container h2 {
     color: #00ff88;
     margin-bottom: 1rem;
+    letter-spacing: 0.5px;
 }
 
 #bio-img {
@@ -39,10 +46,12 @@ body {
     border-radius: 50%;
     margin-bottom: 1rem;
     border: 3px solid #00ff88;
-    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 128, 0.3);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 #bio-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
+    box-shadow: 0 0 25px rgba(0, 255, 128, 0.6);
 }
 
 .higlight {
@@ -62,11 +71,12 @@ body {
 #social-container a {
     font-size: 1.5rem;
     color: #00ff88;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
 #social-container a:hover {
     color: #00e676;
     transform: translateY(-3px);
+    text-shadow: 0 0 8px rgba(0, 255, 128, 0.8);
 }
 
 #email-container {
@@ -75,6 +85,7 @@ body {
     justify-content: center;
     gap: 0.5rem;
     font-size: 0.95rem;
+    color: #ccc;
 }
 
 /* Lado direito */
@@ -85,19 +96,22 @@ body {
 }
 
 #name {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2.6rem;
+    font-weight: 700;
     color: #00ff88;
+    letter-spacing: 1px;
 }
 
 #title {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
+    color: #aaa;
 }
 
 .description {
     color: #ccc;
     margin-bottom: 1rem;
+    line-height: 1.7;
 }
 
 /* Botões */
@@ -105,26 +119,41 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.7rem 1.4rem;
-    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
     background: linear-gradient(90deg, #00ff88, #00cc66);
     color: #0a0a0a;
     text-decoration: none;
-    font-weight: 600;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     margin-top: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 255, 128, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 255, 128, 0.35);
 }
 
-#btn-projects:hover, #btn-curriculo:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0, 255, 128, 0.4);
+/* Destaque especial para botão de currículo */
+#btn-curriculo {
+    background: linear-gradient(90deg, #ffdd00, #ffaa00);
+    color: #0a0a0a;
+    box-shadow: 0 4px 15px rgba(255, 221, 0, 0.4);
+    border: 2px solid rgba(255, 221, 0, 0.8);
+}
+#btn-curriculo:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(255, 221, 0, 0.55);
+}
+
+/* Hover padrão botões */
+#btn-projects:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 255, 128, 0.5);
 }
 
 /* Skills */
 #skills-section-titles {
     margin-top: 2rem;
     color: #00ff88;
+    font-weight: 700;
 }
 
 #skills-container {
@@ -135,7 +164,7 @@ body {
 }
 
 #skills-box {
-    background: #1a1a1a;
+    background: linear-gradient(180deg, #1a1a1a, #151515);
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -144,7 +173,7 @@ body {
 }
 #skills-box:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 255, 128, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 255, 128, 0.25);
 }
 
 .Skills-title {
