@@ -26,16 +26,16 @@ body {
     padding: 2rem 1.5rem;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 255, 128, 0.1);
+    box-shadow: 0 8px 30px rgba(51, 204, 255, 0.1); /* sombra azul claro */
     transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 #bio-container:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 255, 128, 0.18);
+    box-shadow: 0 15px 40px rgba(51, 204, 255, 0.18); /* sombra azul claro */
 }
 
 #bio-container h2 {
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     margin-bottom: 1rem;
     letter-spacing: 0.6px;
     font-weight: 700;
@@ -47,17 +47,17 @@ body {
     height: 170px;
     border-radius: 50%;
     margin-bottom: 1.25rem;
-    border: 4px solid #00ff88;
-    box-shadow: 0 0 25px rgba(0, 255, 128, 0.4);
+    border: 4px solid #33ccff; /* azul claro */
+    box-shadow: 0 0 25px rgba(51, 204, 255, 0.4); /* azul claro */
     transition: transform 0.45s ease, box-shadow 0.45s ease;
 }
 #bio-img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 35px rgba(0, 255, 128, 0.7);
+    box-shadow: 0 0 35px rgba(51, 204, 255, 0.7); /* azul claro */
 }
 
 .higlight {
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     font-weight: 700;
     font-size: 1.05rem;
 }
@@ -73,7 +73,7 @@ body {
 
 #social-container a {
     font-size: 1.8rem;
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
     display: flex;
     align-items: center;
@@ -81,15 +81,15 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: rgba(0, 255, 128, 0.15);
-    box-shadow: 0 0 8px rgba(0, 255, 128, 0.1);
+    background: rgba(51, 204, 255, 0.15); /* azul claro */
+    box-shadow: 0 0 8px rgba(51, 204, 255, 0.1); /* azul claro */
 }
 #social-container a:hover {
-    color: #00e676;
+    color: #00bfff; /* azul mais forte */
     transform: translateY(-5px) scale(1.1);
-    text-shadow: 0 0 10px rgba(0, 255, 128, 0.9);
-    background: #00ff88;
-    box-shadow: 0 0 18px #00ff88;
+    text-shadow: 0 0 10px rgba(51, 204, 255, 0.9);
+    background: #33ccff; /* azul claro */
+    box-shadow: 0 0 18px #33ccff; /* azul claro */
 }
 
 #email-container {
@@ -109,17 +109,17 @@ body {
     padding: 2.5rem 2rem;
     background: linear-gradient(180deg, #121212, #1a1a1a);
     border-radius: 12px;
-    box-shadow: 0 8px 35px rgba(0, 255, 128, 0.12);
+    box-shadow: 0 8px 35px rgba(51, 204, 255, 0.12); /* sombra azul claro */
     transition: box-shadow 0.3s ease;
 }
 #about-container:hover {
-    box-shadow: 0 15px 50px rgba(0, 255, 128, 0.22);
+    box-shadow: 0 15px 50px rgba(51, 204, 255, 0.22); /* sombra azul claro */
 }
 
 #name {
     font-size: 2.8rem;
     font-weight: 800;
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     letter-spacing: 1.1px;
     margin-bottom: 0.2rem;
 }
@@ -153,21 +153,21 @@ body {
     letter-spacing: 0.6px;
     font-size: 0.9rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 255, 128, 0.35);
+    box-shadow: 0 5px 15px rgba(51, 204, 255, 0.35); /* sombra azul claro */
     cursor: pointer;
     border: none;
     text-decoration: none;
 }
 
-/* Botão projetos - verde */
+/* Botão projetos - azul claro */
 #btn-projects {
-    background: linear-gradient(90deg, #00ff88, #00cc66);
+    background: linear-gradient(90deg, #33ccff, #0099cc);
     color: #0a0a0a;
     margin-right: 1rem;
 }
 #btn-projects:hover {
     transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 12px 30px rgba(0, 255, 128, 0.6);
+    box-shadow: 0 12px 30px rgba(51, 204, 255, 0.6);
 }
 
 /* Botão currículo - amarelo */
@@ -194,10 +194,10 @@ body {
 /* Skills */
 #skills-section-titles {
     margin-top: 2.3rem;
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     font-weight: 700;
     font-size: 1.9rem;
-    border-bottom: 2.5px solid #00ff88;
+    border-bottom: 2.5px solid #33ccff; /* azul claro */
     padding-bottom: 0.4rem;
     letter-spacing: 0.7px;
 }
@@ -215,17 +215,17 @@ body {
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 20px rgba(0, 255, 128, 0.07);
+    box-shadow: 0 5px 20px rgba(51, 204, 255, 0.07); /* sombra azul claro */
 }
 #skills-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 35px rgba(0, 255, 128, 0.3);
+    box-shadow: 0 10px 35px rgba(51, 204, 255, 0.3);
 }
 
 .Skills-title {
     margin-bottom: 0.6rem;
     font-weight: 700;
-    color: #00ff88;
+    color: #33ccff; /* azul claro */
     font-size: 1.2rem;
 }
 
