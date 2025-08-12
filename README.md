@@ -31,6 +31,7 @@
 </div><br/>
 
 
-Sou desenvolvedor há mais de 5 anos, com experiência sólida em diversas tecnologias. Nos últimos 2 anos, venho me dedicando à área de DevOps, implementando práticas e ferramentas que otimizam processos de desenvolvimento e operações. Minha paixão por tecnologia e aprendizado contínuo me permite enfrentar desafios complexos com eficácia. 💻
+Sou desenvolvedor há mais de 5 anos, com experiência sólida em diversas tecnologias. Nos últimos anos, venho me dedicando à área de DevOps, implementando práticas e ferramentas que otimizam processos de desenvolvimento e operações. Minha paixão por tecnologia e aprendizado contínuo me permite enfrentar desafios complexos com eficácia. 💻
+
 
 
