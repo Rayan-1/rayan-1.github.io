@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio Rayan Victor</title>
+  <title>Rayan Victor — DevOps Engineer</title>
+  <meta name="description" content="Rayan Victor — Engenheiro DevOps especializado em CI/CD, Kubernetes e infraestrutura em nuvem para sistemas bancários." />
   <link rel="stylesheet" href="css/style.css">
-  
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Dev Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
@@ -19,140 +20,275 @@
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-  <main id="container">
-    <!-- Lado esquerdo -->
-    <aside id="bio-container">
-      <h2>Rayan Victor</h2>
-      <img id="bio-img" src="img/RV.png" alt="Rayan Victor" />
-      <p>
-        Olá meu nome é Rayan Victor eu sou
-        <span class="higlight"> DevOps Engineer </span>
-      </p>
-      <p id="welcome-text">Seja Bem Vindo!</p>
-      <ul id="social-container">
-        <li>
-          <a href="https://www.instagram.com/eorayanvictor" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/rayan-victor-9749b3224/" target="_blank">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=88998007210" target="_blank">
-            <ion-icon name="logo-whatsapp"></ion-icon>
-          </a>
-        </li>
-      </ul>
 
-      <div id="email-container">
-        <ion-icon name="mail-outline"></ion-icon>
-        <a href="mailto:rayanvictor088@gmail.com">rayanvictor088@gmail.com</a>
+  <div class="terminal">
+
+    <!-- Barra de janela estilo editor/terminal -->
+    <div class="terminal__chrome">
+      <div class="terminal__dots" aria-hidden="true">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
       </div>
+      <span class="terminal__tab">~/rayan-victor/portfolio.sh</span>
+      <span class="terminal__status">
+        <span class="pulse" aria-hidden="true"></span>
+        disponível para novos desafios
+      </span>
+    </div>
 
-       <a href="Curriculo-RayanVictor.pdf" download id="btn-curriculo">
-          <ion-icon name="download-outline"></ion-icon>
-          <span>Baixar Currículo</span>
-        </a>
-    </aside>
-    
+    <div class="terminal__body">
 
-    <!-- Lado direito -->
-    <section id="about-container">
-      <h1 id="name">Rayan Victor</h1>
-      <p id="title"><span class="higlight">DevOps Engineer</span></p>
-      
-<p class="description">
-  Sou Engenheiro DevOps especializado em <span class="higlight">CI/CD</span> com experiência em sistemas bancários. Atuo com <span class="higlight">Kubernetes</span> para orquestração de containers e <span class="higlight">Docker</span> para conteinerização.
-</p>
-<p class="description">
-  Desenvolvo pipelines automáticas usando <span class="higlight">Azure DevOps</span>, e gerencio infraestrutura com <span class="higlight">Terraform</span> e <span class="higlight">Ansible</span>. Também trabalho com monitoramento via <span class="higlight">Grafana</span>, <span class="higlight">Elasticsearch</span> e <span class="higlight">Kibana</span>.
-</p>
-<p class="description">
-  Tenho experiência em nuvem com <span class="higlight">AWS</span> e <span class="higlight">Azure</span>, versionamento com <span class="higlight">Git</span> e programação em <span class="higlight">Python</span> e <span class="higlight">Shell Script</span>. Também gerencio bancos de dados como <span class="higlight">MySQL</span>, <span class="higlight">PostgreSQL</span> e <span class="higlight">MongoDB</span>.
-</p>
+      <!-- ===== HERO ===== -->
+      <section class="hero">
 
+        <aside class="profile-card">
+          <div class="profile-card__avatar-wrap">
+            <img class="profile-card__avatar" src="img/rayan.png" alt="Foto de Rayan Victor" />
+          </div>
 
+          <h2 class="profile-card__name">Rayan Victor</h2>
+          <p class="profile-card__role">DevOps Engineer</p>
 
-      <a href="https://github.com/Rayan-1" id="btn-projects">
-        <ion-icon name="share-social-outline"></ion-icon>
-        <span>Ver Projetos</span>
-      </a>
+          <a href="CV-2026.pdf" download class="btn btn--primary">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Baixar Currículo</span>
+          </a>
 
-      <h2 id="skills-section-titles">Minhas Skills</h2>
-      <p class="description">Conheça as tecnologias que domino:</p>
+          <ul class="social-row">
+            <li>
+              <a href="https://www.instagram.com/eorayanvictor" target="_blank" rel="noopener" aria-label="Instagram">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rayan-victor-9749b3224/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=88998007210" target="_blank" rel="noopener" aria-label="WhatsApp">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Rayan-1" target="_blank" rel="noopener" aria-label="GitHub">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
 
-      <div id="skills-container">
-        <div id="skills-box">
-          <p class="Skills-title">Cloud</p>
-          <i class="devicon-azure-plain-wordmark colored"></i>
-          <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+          <a class="profile-card__email" href="mailto:rayanvictor088@gmail.com">
+            <ion-icon name="mail-outline"></ion-icon>
+            rayanvictor088@gmail.com
+          </a>
+        </aside>
+
+        <div class="intro">
+          <p class="prompt"><span class="prompt__sigil">$</span> whoami</p>
+
+          <h1 class="intro__title">Automatizo infraestrutura para que times<br>entreguem software com <span class="hl">confiança</span>.</h1>
+
+          <p class="intro__text">
+            Sou Engenheiro <span class="hl">DevOps</span>, formado em Ciência da Computação pela UFC, com experiência construída principalmente em instituições de pagamento e sistemas bancários — ambientes onde a confiabilidade da infraestrutura não é opcional.
+          </p>
+          <p class="intro__text">
+            Ao longo da minha trajetória, implantei clusters <span class="hl">Kubernetes</span> completos com <span class="hl">Helm</span>, <span class="hl">Istio</span> e <span class="hl">Rancher</span>, monitorados com <span class="hl">Grafana</span> e Prometheus. Construí e mantive pipelines de <span class="hl">CI/CD</span> e <span class="hl">GitOps</span> integrados a ferramentas de qualidade de código, e já geri ambientes de produção em <span class="hl">Linux</span> e Windows Server, atendendo incidentes críticos de segurança e disponibilidade.
+          </p>
+          <p class="intro__text">
+            Meu ponto forte é <span class="hl">automação</span>: sempre que identifico uma tarefa manual e repetitiva, meu instinto é escrever um script, uma pipeline ou um playbook pra eliminar esse retrabalho. Uso <span class="hl">Terraform</span> e <span class="hl">Ansible</span> pra tratar infraestrutura como código, e <span class="hl">Python</span> e Shell Script pra automatizar rotinas de operação do início ao fim.
+          </p>
+          <p class="intro__text">
+            Isso se estende a um leque amplo de tecnologias — de <span class="hl">containers</span> e orquestração (Docker, Kubernetes, KubeSphere) a <span class="hl">cloud</span> (AWS, Azure, GCP) e <span class="hl">observabilidade</span> (Grafana, Prometheus, ELK) — sempre com o mesmo objetivo: deixar o ambiente mais previsível, mais seguro e menos dependente de intervenção manual.
+          </p>
+
+          <a href="https://github.com/Rayan-1" class="btn btn--outline" target="_blank" rel="noopener">
+            <ion-icon name="share-social-outline"></ion-icon>
+            <span>Ver Projetos</span>
+          </a>
         </div>
+      </section>
 
-        <div id="skills-box">
-          <p class="Skills-title">Tools</p>
-          <i class="devicon-docker-plain-wordmark colored"></i>
-          <i class="devicon-kubernetes-plain-wordmark colored"></i>
-          <i class="devicon-rancher-plain-wordmark colored"></i>
-          <i class="devicon-jenkins-plain colored"></i>
-          <i class="devicon-terraform-plain-wordmark colored"></i>
-          <i class="devicon-ansible-plain colored"></i>
+      <!-- ===== STACK.YAML ===== -->
+      <section class="stack" aria-labelledby="stack-heading">
+        <p class="file-eyebrow"># stack.yaml</p>
+        <h2 id="stack-heading" class="visually-hidden">Minhas skills</h2>
+
+        <pre class="yaml-meta" aria-hidden="true"><span class="yk">apiVersion</span>: <span class="ys">portfolio/v1</span>
+<span class="yk">kind</span>: <span class="ys">Engineer</span>
+<span class="yk">metadata</span>:
+  <span class="yk">name</span>: <span class="ys">Rayan Victor</span>
+  <span class="yk">role</span>: <span class="ys">DevOps Engineer Pleno</span>
+  <span class="yk">focus</span>: <span class="ys">CI/CD · Kubernetes · Cloud Híbrida · Observabilidade</span>
+  <span class="yk">location</span>: <span class="ys">Russas, Ceará — remoto</span></pre>
+
+        <p class="yaml-spec-label"><span class="yk">spec</span>:</p>
+
+        <div class="spec-rows">
+
+          <div class="spec-row">
+            <p class="spec-row__key">cloud:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></span>
+              <span class="chip"><i class="devicon-azure-plain-wordmark colored"></i><span>Azure</span></span>
+              <span class="chip"><i class="devicon-googlecloud-plain-wordmark colored"></i><span>GCP</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">virtualization:</p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.simpleicons.org/proxmox/E57000" alt="" onerror="this.remove()"><span>Proxmox</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/vmware/607078" alt="" onerror="this.remove()"><span>VMware</span></span>
+              <span class="chip"><ion-icon name="cube-outline"></ion-icon><span>LXC</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">containers_orchestration:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-docker-plain-wordmark colored"></i><span>Docker</span></span>
+              <span class="chip"><i class="devicon-kubernetes-plain-wordmark colored"></i><span>Kubernetes</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/helm/0F1689" alt="" onerror="this.remove()"><span>Helm</span></span>
+              <span class="chip"><i class="devicon-rancher-plain-wordmark colored"></i><span>Rancher</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/kubesphere/2453FF" alt="" onerror="this.remove()"><span>KubeSphere</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/istio/466BB0" alt="" onerror="this.remove()"><span>Istio</span></span>
+              <span class="chip"><ion-icon name="telescope-outline"></ion-icon><span>Lens</span></span>
+              <span class="chip"><ion-icon name="terminal-outline"></ion-icon><span>K9s</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">cicd_gitops:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-jenkins-plain colored"></i><span>Jenkins</span></span>
+              <span class="chip"><i class="devicon-githubactions-plain colored"></i><span>GitHub Actions</span></span>
+              <span class="chip"><i class="devicon-gitlab-plain colored"></i><span>GitLab CI</span></span>
+              <span class="chip"><i class="devicon-azuredevops-plain colored"></i><span>Azure DevOps</span></span>
+              <span class="chip"><i class="devicon-bitbucket-plain colored"></i><span>Bitbucket Pipelines</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/argo/EF7B4D" alt="" onerror="this.remove()"><span>Argo CD</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/argo/EF7B4D" alt="" onerror="this.remove()"><span>Argo Rollouts</span></span>
+              <span class="chip"><i class="devicon-sonarqube-plain colored"></i><span>SonarCloud</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">iac_config:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-terraform-plain-wordmark colored"></i><span>Terraform</span></span>
+              <span class="chip"><i class="devicon-ansible-plain colored"></i><span>Ansible</span></span>
+              <span class="chip"><ion-icon name="cog-outline"></ion-icon><span>AWX</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/puppet/FFAE1A" alt="" onerror="this.remove()"><span>Puppet</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">monitoring_observability:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-grafana-plain colored"></i><span>Grafana</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/prometheus/E6522C" alt="" onerror="this.remove()"><span>Prometheus</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/grafana/F46800" alt="" onerror="this.remove()"><span>Loki</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/zabbix/D40000" alt="" onerror="this.remove()"><span>Zabbix</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/elastic/005571" alt="" onerror="this.remove()"><span>Elasticsearch</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/kibana/005571" alt="" onerror="this.remove()"><span>Kibana</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">messaging_cache_storage:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-rabbitmq-plain colored"></i><span>RabbitMQ</span></span>
+              <span class="chip"><i class="devicon-redis-plain colored"></i><span>Redis</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/minio/C72E49" alt="" onerror="this.remove()"><span>MinIO</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">security_devsecops:</p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.simpleicons.org/snyk/4C4A73" alt="" onerror="this.remove()"><span>Snyk</span></span>
+              <span class="chip"><ion-icon name="shield-checkmark-outline"></ion-icon><span>Veracode</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/dependabot/025E8C" alt="" onerror="this.remove()"><span>Dependabot</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">networking:</p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.simpleicons.org/cloudflare/F38020" alt="" onerror="this.remove()"><span>Cloudflare</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/nginx/009639" alt="" onerror="this.remove()"><span>Nginx</span></span>
+              <span class="chip"><i class="devicon-apache-plain-wordmark colored"></i><span>Apache</span></span>
+              <span class="chip"><ion-icon name="git-network-outline"></ion-icon><span>DNS &amp; Redes</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">databases:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-microsoftsqlserver-plain colored"></i><span>SQL Server</span></span>
+              <span class="chip"><i class="devicon-postgresql-plain-wordmark colored"></i><span>PostgreSQL</span></span>
+              <span class="chip"><i class="devicon-mysql-plain-wordmark colored"></i><span>MySQL</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">languages_frameworks:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-python-plain-wordmark colored"></i><span>Python</span></span>
+              <span class="chip"><i class="devicon-go-original-wordmark colored"></i><span>Go</span></span>
+              <span class="chip"><i class="devicon-shell-plain colored"></i><span>Shell Script</span></span>
+              <span class="chip"><i class="devicon-java-plain colored"></i><span>Java</span></span>
+              <span class="chip"><i class="devicon-csharp-plain colored"></i><span>C#</span></span>
+              <span class="chip"><i class="devicon-php-plain colored"></i><span>PHP</span></span>
+              <span class="chip"><i class="devicon-nodejs-plain-wordmark colored"></i><span>Node.js</span></span>
+              <span class="chip"><i class="devicon-dotnetcore-plain colored"></i><span>.NET 6</span></span>
+              <span class="chip"><i class="devicon-django-plain colored"></i><span>Django</span></span>
+              <span class="chip"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></span>
+              <span class="chip"><i class="devicon-html5-plain-wordmark colored"></i><span>HTML</span></span>
+              <span class="chip"><i class="devicon-css3-plain-wordmark colored"></i><span>CSS</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">apis_tools:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-postman-plain colored"></i><span>Postman</span></span>
+              <span class="chip"><ion-icon name="swap-horizontal-outline"></ion-icon><span>REST</span></span>
+              <span class="chip"><i class="devicon-graphql-plain colored"></i><span>GraphQL</span></span>
+              <span class="chip"><ion-icon name="flash-outline"></ion-icon><span>gRPC</span></span>
+              <span class="chip"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="" onerror="this.remove()"><span>n8n</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">versioning:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-git-plain colored"></i><span>Git</span></span>
+              <span class="chip"><i class="devicon-github-plain colored"></i><span>GitHub</span></span>
+              <span class="chip"><i class="devicon-gitlab-plain colored"></i><span>GitLab</span></span>
+              <span class="chip"><i class="devicon-bitbucket-plain colored"></i><span>Bitbucket</span></span>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <p class="spec-row__key">os:</p>
+            <div class="chips">
+              <span class="chip"><i class="devicon-linux-plain colored"></i><span>Linux</span></span>
+              <span class="chip"><i class="devicon-windows8-original colored"></i><span>Windows Server</span></span>
+            </div>
+          </div>
+
         </div>
+      </section>
 
-        <div id="skills-box">
-          <p class="Skills-title">Back-End</p>
-          <i class="devicon-python-plain-wordmark colored"></i>
-          <i class="devicon-c-plain colored"></i>
-          <i class="devicon-cplusplus-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-shell-plain colored"></i>
-        </div>
+    </div>
 
-        <div id="skills-box">
-          <p class="Skills-title">S.O</p>
-          <i class="devicon-ubuntu-plain-wordmark colored"></i>
-          <i class="devicon-windows8-original colored"></i>
-          <i class="devicon-linux-plain colored"></i>
-        </div>
+    <div class="terminal__footer">
+      <span class="prompt__sigil">$</span> echo "Vamos construir algo juntos?" &amp;&amp;
+      <a href="mailto:rayanvictor088@gmail.com">enviar e-mail</a>
+    </div>
 
-        <div id="skills-box">
-          <p class="Skills-title">Databases</p>
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-        </div>
+  </div>
 
-        <div id="skills-box">
-          <p class="Skills-title">Front-End</p>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-        </div>
-
-        <div id="skills-box">
-          <p class="Skills-title">Versionamento</p>
-          <i class="devicon-git-plain colored"></i>
-          <i class="devicon-gitlab-plain colored"></i>
-          <i class="devicon-github-plain colored"></i>
-        </div>
-
-
-        <div id="skills-box">
-          <p class="Skills-title">Monitoramento e Observabilidade</p>
-          <i class="devicon-grafana-plain colored"></i>
-          <img src="https://logodix.com/logo/1687801.png" alt="Elastic Logo" width="48" height="48">
-          <img src="https://i.pinimg.com/originals/1c/8e/6b/1c8e6b6f091ded0eb8bfca7ae80fe39e.png" alt="Kibana Logo" width="40" height="40">
-        </div>
-      </div>
-    </section>
-  </main>
 </body>
 </html>
-
-
-
-
-
-
